@@ -34,7 +34,7 @@ repeat {
 }
 ```
 
-# Print Vector of Sequences
+# Vector of Sequences
 ```
 # or, the most parsimonious:
 print(seq(25,1000,8))
