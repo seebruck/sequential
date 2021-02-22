@@ -3,8 +3,8 @@ Say you want to count by eights, from a given starting point (25) to a certain t
 
 # Vector of Sequences
 ```
-print(seq(25,1000,8))
-print(seq(from = 25, to = 1000, by = 8))
+seq(25,1000,8)
+seq(from = 25, to = 1000, by = 8)
 ```
 
 # For-Loop
