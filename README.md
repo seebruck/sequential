@@ -1,5 +1,13 @@
 Say you want to count by eights, from a given starting point (25) to a certain threshold (1000). Here are some ways to do that in R:
 
+
+# Vector of Sequences
+```
+# most parsimoniously:
+print(seq(25,1000,8))
+print(seq(from = 25, to = 1000, by = 8))
+```
+
 # For-Loop
 ```
 for(i in seq(25,1000,8)) {
@@ -32,11 +40,4 @@ repeat {
    break
  }
 }
-```
-
-# Vector of Sequences
-```
-# or, the most parsimonious:
-print(seq(25,1000,8))
-print(seq(from = 25, to = 1000, by = 8))
 ```
