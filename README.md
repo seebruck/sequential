@@ -4,7 +4,6 @@ Say you want to count by eights, from a given starting point (25) to a certain t
 # Vector of Sequences
 ```
 print(seq(25,1000,8))
-# or, more clearly:
 print(seq(from = 25, to = 1000, by = 8))
 ```
 
