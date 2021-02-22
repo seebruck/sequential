@@ -13,7 +13,7 @@ for(i in seq(25,1000,8)) print(i)
 # While-Loop
 ```
 x <- 25
-while(x <= 1000){ 
+while(x <= 1000) { 
     print(x <- x+8) 
 }
 
